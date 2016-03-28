@@ -63,7 +63,7 @@
     {
       "name": "youtube downloader",
       "title": "Download Youtube Video",
-      "command": "python2 scripts/download_video.py '$SHELLAC_TAB_URL' '$SHELLAC_TAB_TITLE'",
+      "command": "python2 scripts/download_video.py $SHELLAC_TAB_URL $SHELLAC_TAB_TITLE",
       "contexts": ["all"]
     }
   ]
