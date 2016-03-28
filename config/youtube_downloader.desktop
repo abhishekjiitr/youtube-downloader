@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=python2 /usr/my_scripts/bat_alert.py 
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_IN]=YoutubeDownloaderStartupScript
+Name=YoutubeDownloaderStartupScript
+Comment[en_IN]=
+Comment=
