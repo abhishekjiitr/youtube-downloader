@@ -1,0 +1,21 @@
+#!/bin/sh
+
+link="$1"
+selection="$2"
+uname=`uname -s`
+
+copy_to_clipboard() {
+  if [ "$uname" == "Darwin" ]; then
+    pbcopy
+  else
+    xclip -i
+  fi
+}
+
+copy_to_clipboard <<EOF
+$link
+$selection
+EOF
+
+exit 0
+
