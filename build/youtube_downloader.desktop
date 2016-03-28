@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=python2 /home/jaisingh/cs/git/webapp.py  8783
+Exec=bash /home/jaisingh/cs/git/youtube-downloader/main.sh
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true

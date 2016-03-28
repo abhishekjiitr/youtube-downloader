@@ -1,15 +1,15 @@
 {
-  "name": "Shellac",
+  "name": "Youtube Downloader",
   "version": "0.3",
   "manifest_version": 2,
-  "description": "Extend Chrome with unix shell commands.",
+  "description": "Download Youtube Videos easily!!",
   "background" : {
     "page" : "background.html",
     "persistent" : true
   },
   "browser_action": {
     "default_icon": "icon-64x64.png",
-    "default_title": "Shellac",
+    "default_title": "Youtube Downloader",
     "default_popup": "popup.html"
   },
   "permissions": [

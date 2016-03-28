@@ -1,13 +1,11 @@
 import os 	
 
-current = os.getcwd()
-parent = "/".join(current.split("/")[:-1])
-path = os.path.join(parent, "webapp.py")
+path = os.path.join(os.getcwd(), "main.sh")
 print(path)
 
 s = """[Desktop Entry]
 Type=Application
-Exec=python2 %s  8783
+Exec=bash %s
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
