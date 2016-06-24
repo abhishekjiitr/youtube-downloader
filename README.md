@@ -12,8 +12,7 @@ usage:
 -----
 + clone this repository:
 ```git clone https://github.com/abhishekjiitr/youtube-downloader```
-+ open top folder in terminal
-```sudo make```
++ open top folder in terminal and execute: ```sudo make```
 
 adding extension to chrome:
 --------------------------
