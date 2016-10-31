@@ -5,6 +5,7 @@ youtube-downloader
 
 requirements:
 ---------------------
++ python-2.7
 + google chrome
 + youtube-dl
 
